@@ -1,0 +1,55 @@
+.App-nav {
+  height: 8vmin;
+}
+
+.imagedefond-light {
+  background-image: url("/public/logo-bg-white.svg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+.imagedefond-dark {
+  background-image: url("/public/logo-bg-black.svg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.bg-darkness {
+  background-color: black !important;
+  background-color: #3f245c !important;
+}
+
+.dropdown-menu {
+  margin-top: -10px !important;
+}
+
+.navbar-toggler {
+  background-color: #f3953f;
+  border: medium solid white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../../img/burger-nav.svg");
+}
+
+.nav-link {
+  color: #f3953f !important;
+}
+
+.nav-style {
+  font-family: "Black";
+  color: #f3953f;
+  text-decoration: none;
+}
+
+.form-control {
+  background-color: "red" !important;
+}
+
+/* /////////////
+ A AMELIORER
+/////////////
+
+.dropdown:hover .dropdown-menu {
+  pointer-events: none!important;
+  display: block !important;
+}  */

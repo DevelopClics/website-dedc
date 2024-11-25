@@ -1,0 +1,65 @@
+.titre1 {
+  font-family: "black" !important;
+  text-decoration: none;
+}
+
+.Titre2 {
+  font-family: "Black" !important;
+  background-color: #e52322;
+}
+.Texte1 {
+  font-family: "Regular" !important;
+  text-decoration: none;
+}
+
+.photo-dark,
+.photo-light {
+  max-width: 100%;
+  height: auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-light {
+  background-image: url("../../img/team-dark.jpg");
+}
+
+.photo-dark {
+  background-image: url("../../img/team-light.jpg");
+}
+
+.bg-dark-opacity {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.bg-light-opacity {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.fondtransparent {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+/* 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up) 
+*/
+@media (min-width: 576px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /*  min-height: 50vh !important;   */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

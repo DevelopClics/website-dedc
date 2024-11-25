@@ -1,0 +1,32 @@
+.form-control {
+  border-radius: 0;
+}
+.form_control-light {
+  background: rgb(240, 240, 240);
+  border-color: rgb(79, 79, 79);
+}
+.form_control-dark {
+  color: white;
+
+  background: rgb(79, 79, 79);
+  border-color: rgb(240, 240, 240);
+}
+.form_control-dark:focus {
+  color: white;
+  background: rgb(79, 79, 79);
+  border-color: rgb(240, 240, 240);
+}
+
+.form_control-dark:hover {
+  color: white;
+  background: rgb(49, 49, 49);
+  border-color: rgb(240, 240, 240);
+}
+
+.form_control-dark::placeholder {
+  color: white;
+}
+
+.error {
+  font-size: small !important;
+}

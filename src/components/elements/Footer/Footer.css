@@ -1,0 +1,31 @@
+.App-foot {
+    height: 100vmin;
+ }
+
+ .App-logo-foot {
+  height: 4vmin;
+}
+
+ .foot-link { 
+    color:#f3953f !important;
+    text-decoration: none;
+ }
+
+ .foot-style, .foot-style-light {
+   color:#f3953f ;
+   text-decoration:none;
+ }
+
+ .foot-link {
+   font-family: "Black";
+
+ }
+ .foot-style-light {
+   font-family: "Regular";
+ }
+
+
+ .rs-link { 
+  text-decoration: none;
+
+ }

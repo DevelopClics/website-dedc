@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Black"; /*Can be any text*/
+  src: local("Mulish-Black"), url("./fonts/Mulish-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Italic"; /*Can be any text*/
+  src: local("Mulish-BlackItalic"),
+    url("./fonts/Mulish-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Regular"; /*Can be any text*/
+  src: local("Mulish-Regular"),
+    url("./fonts/Mulish-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("Mulish-Light"), url("./fonts/Mulish-Light.ttf") format("truetype");
+}
+
+.titre1 {
+  font-family: "black" !important;
+  text-decoration: none;
+}
+
+.Titre2 {
+  font-family: "Black" !important;
+  background-color: #e52322;
+}
+.Texte1 {
+  font-family: "Regular" !important;
+  text-decoration: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.bg-lum {
+  background-color: #2cb5b6;
+  background-color: #e0e0e0;
+}
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
